@@ -2,7 +2,7 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 import requests
-import Pandas
+import Pandas as pf
 
 # Write directly to the app
 st.title(f":cup_with_straw: Customize your smoothi!:cup_with_straw: {st.__version__}")
